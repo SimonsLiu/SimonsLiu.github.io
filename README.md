@@ -31,10 +31,3 @@
 > $ hexo s
 > ```
 
-> hexo g == hexo generate 
->
-> hexo d == hexo deploy 
->
-> hexo s == hexo server 
->
-> hexo n == hexo new
