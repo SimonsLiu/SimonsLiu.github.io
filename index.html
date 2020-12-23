@@ -260,7 +260,7 @@
       <span class="post-meta-item-text">发表于</span>
       
 
-      <time title="创建时间：2020-12-21 21:48:33 / 修改时间：15:41:37" itemprop="dateCreated datePublished" datetime="2020-12-21T21:48:33+08:00">2020-12-21</time>
+      <time title="创建时间：2020-12-21 21:48:33 / 修改时间：16:52:32" itemprop="dateCreated datePublished" datetime="2020-12-21T21:48:33+08:00">2020-12-21</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -284,7 +284,17 @@
     <div class="post-body" itemprop="articleBody">
           <h1 id="20201221学习记录"><a href="#20201221学习记录" class="headerlink" title="20201221学习记录"></a>20201221学习记录</h1><h2 id="《统计学习方法》"><a href="#《统计学习方法》" class="headerlink" title="《统计学习方法》"></a>《统计学习方法》</h2><h3 id="K近邻模型"><a href="#K近邻模型" class="headerlink" title="K近邻模型"></a>K近邻模型</h3><p>![image-20201221154119420](/Users/lsh/Library/Application Support/typora-user-images/image-20201221154119420.png)</p>
 <p>k近邻算法的三个基本要素：k值的选择、距离度量及分类决策规则</p>
-<p>距离度量一般采用</p>
+<p>分类决策规则：</p>
+<p>多数表决</p>
+<p>距离度量：![image-20201221160043041](/Users/lsh/Library/Application Support/typora-user-images/image-20201221160043041.png)</p>
+<p>![image-20201221160106953](/Users/lsh/Library/Application Support/typora-user-images/image-20201221160106953.png)</p>
+<p>K值的选择：</p>
+<p>![image-20201221160735840](/Users/lsh/Library/Application Support/typora-user-images/image-20201221160735840.png)</p>
+<p>![image-20201221161013978](/Users/lsh/Library/Application Support/typora-user-images/image-20201221161013978.png)</p>
+<p>如果k=3，则选择红色时，误差是1/3，选择蓝色时，误差是2/3，那么就应该选择误差更小的，选择判定为红色。</p>
+<p>总结：K近邻算法，用的是局部信息。感知机用的全局信息。</p>
+<p>当全局信息并不能被感知器完全分开时，可以采用k近邻算法，使用局部信息进行判定</p>
+<p>k近邻算法对整个模型没有很强的假设，只考虑局部信息。</p>
 <h2 id="知识图谱基础知识"><a href="#知识图谱基础知识" class="headerlink" title="知识图谱基础知识"></a>知识图谱基础知识</h2>
       
     </div>
@@ -622,6 +632,7 @@
   </footer>
 
   
+  <script size="300" alpha="0.6" zIndex="-1" src="//cdn.jsdelivr.net/npm/ribbon.js@1.0.2/dist/ribbon.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
 <script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
 
